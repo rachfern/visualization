@@ -6,24 +6,46 @@
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
+
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
+   -  For this project, I used Python (Matplotlib and Seaborn) to create the initial bar chart and Google Sheets to design a time series plot. 
 
     > Who is your intended audience? 
+    - The intended audience are city planners, art enthusiasts, and community members interested in understanding the distribution and growth of public art installations over time in Toronto.
     
     > What information or message are you trying to convey with your visualization? 
+   -  Both visualizations aim to show how public art installations have evolved over the years and to highlight the diversity of art forms present in the city. 
+    1. The bar chart reveals which types of artworks are most prevalent. 
+    2. The time series chart illustrates trends in installation activity, potentially reflecting cultural shifts or policy changes.
+
     
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+    - I selected data points that reveal meaningful patterns, such as the frequency of different art forms and the number of installations per year. 
+    - I used distinct colors and clear labeling to ensure viewers can quickly grasp key insights. 
+    - In the bar chart, the art forms are listed along the x-axis, with counts on the y-axis, making comparisons straightforward. 
+    - Finally, I chose color palettes that enhance readability and adjusted label angles in Google Sheets to prevent overlap, ensuring a clean, visually balanced design.
+
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+   -  The Python visualizations are fully reproducible with the script provided, and the time series data is exported as a CSV for easy replication in tools like Google Sheets, Excel or Tableau.
+
     
     > How did you ensure that your data visualization is accessible?  
+   -  I prioritized accessibility by ensuring all labels, titles, and legends are clear and legible. I also tried choosing colorblind-friendly palettes.
+
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+   -  These visualizations can impact local artists, city planners, and residents by highlighting identifying periods of growth and decline in public art funding and types of art forms that are most prevalent. 
+
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    - I focused on the art form and installation year as key features, as these dimensions offer both, an understanding of the available art forms, and insights into changes over time. To avoid the visualizations being less cluttered, less relevant attributes were excluded.
+
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+    - The project involved reformatting column labels for compatibility with the chosen visualization tools and refining design choices to ensure a balance between detail and clarity.
+
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
